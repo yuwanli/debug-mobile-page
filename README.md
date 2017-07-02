@@ -16,7 +16,8 @@ debug 手机端页面
 
 3.页面引入    
 ```html
-<script src="http://10.96.228.9:8088/target/target-script-min.js#anonymous"></script>//http://10.96.228.9:8088/本机ip:端口号
+//10.96.228.9:8088    本机ip:端口号
+<script src="http://10.96.228.9:8088/target/target-script-min.js#anonymous"></script>
 ```
 ![页面引入](images/2.png "页面引入")
 
@@ -41,6 +42,11 @@ debug 手机端页面
 ```html
 <script src="http://mat1.gtimg.com/zj/yuwanli/common/vconsole/vconsole.min.js"></script>
 ```
+
+固定在屏幕右下角，可拖拽移动位置
+![vconsole](images/5.jpg "vconsole")
+ 点开展开后，可手动输入指令进行调试
+ ![vconsole](images/6.png "vconsole")
 
 在实际调试过程中，往往希望可以打断点进行调试，然后上面说的weinre还有vconsole都没有这个功能，在这个情况下我一般会在关键位置进行console输入，然后用vconsole进行查看。
 当然，手机端的调试工具肯定还有很多，还有更好的，但是还是本着能用、好用、方便用的原则，把这两个分享给大家，有任何想要吐槽、或者觉得有哪里不对的地方，欢迎大家留言。       
