@@ -44,8 +44,11 @@ debug 手机端页面
 ```
 
 固定在屏幕右下角，可拖拽移动位置
+
 ![vconsole](images/5.jpg "vconsole")
+
  点开展开后，可手动输入指令进行调试
+ 
  ![vconsole](images/6.png "vconsole")
 
 在实际调试过程中，往往希望可以打断点进行调试，然后上面说的weinre还有vconsole都没有这个功能，在这个情况下我一般会在关键位置进行console输入，然后用vconsole进行查看。
